@@ -1,0 +1,31 @@
+@import "variables";
+
+body {
+	& * {
+		font-family: "century gothic";
+	}
+}
+
+.inline-block {
+  display: inline-block !important;
+}
+
+.float-right {
+  float: right;
+}
+
+.ticket-staus {
+  position: absolute;
+  top: 0;
+  right: 3%
+}
+
+.create-ticket {
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.form-horizontal label {
+	font-weight: bold !important;
+	color: #000 !important;
+}
